@@ -20,14 +20,18 @@ end
 group :development do
   gem 'listen', '~> 3.3'
   gem 'rack-mini-profiler', '~> 2.0'
+  gem 'rubocop', '1.17.0'
+  gem 'rubocop-performance', '1.11.3'
+  gem 'rubocop-rails', '2.10.1'
+  gem 'rubocop-rspec', '2.4.0'
   gem 'spring'
   gem 'web-console', '>= 4.1.0'
 end
 
 group :test do
-  gem 'capybara', '>= 3.26'
-  gem 'selenium-webdriver'
-  gem 'webdrivers'
+  gem 'rspec-rails', '5.0.1'
+  gem 'shoulda-matchers', '4.5.1'
+  gem 'simplecov', '0.21.2'
 end
 
 gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
