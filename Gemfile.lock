@@ -234,6 +234,10 @@ GEM
     tzinfo (2.0.6)
       concurrent-ruby (~> 1.0)
     unicode-display_width (2.4.2)
+    view_component (3.5.0)
+      activesupport (>= 5.2.0, < 8.0)
+      concurrent-ruby (~> 1.0)
+      method_source (~> 1.0)
     web-console (4.2.0)
       actionview (>= 6.0.0)
       activemodel (>= 6.0.0)
@@ -273,6 +277,7 @@ DEPENDENCIES
   spring
   turbolinks (~> 5)
   tzinfo-data
+  view_component
   web-console (>= 4.1.0)
   webpacker (~> 5.0)
 
